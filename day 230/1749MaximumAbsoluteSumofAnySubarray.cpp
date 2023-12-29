@@ -1,5 +1,6 @@
 // Approach used in this question was kadane's algoritm which basically does is if cursum becomes less than 0(i.e negative) then the cursum is intialised again to zero. and maxsum is calculated in this way.
-// But there was a catch in the question that you needed to find the maxiumum absolute sum, so 2 times kadanes algo was used for finding the maxsum which will be offcourse postive and minsum was calculted which was to be in negative but just needed to make it absolute (positive). hence at last both of them were checked which one is maximum. 
+// But there was a catch in the question that you needed to find the maxiumum absolute sum, so 2 times kadanes algo was used for finding the maxsum which will be offcourse postive and minsum was calculted which
+// was to be in negative but just needed to make it absolute (positive). hence at last both of them were checked which one is maximum. 
 
 
 class Solution {
