@@ -3,7 +3,7 @@
 
 # Leetcode:
     # 1480. Running Sum of 1d Array
-    
+
     
     
 class Solution:
@@ -27,4 +27,4 @@ public:
 };
     
     
-        
+#a minor change made in code just checking if it puashing easily
