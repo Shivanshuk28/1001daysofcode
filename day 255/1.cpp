@@ -1,9 +1,6 @@
 // Leetcode:
 // 1370. Increasing Decreasing String
 
-
-
-
 class Solution {
 public:
     string sortString(string s) {
@@ -13,7 +10,6 @@ public:
             mpp[x-'a']++;
         }
         int n=s.size();
-
         //  while (any_of(mpp.begin(), mpp.end(), [](int count) { return count > 0; }))
         while(n){
             for(int i=0;i<26;i++){
@@ -30,7 +26,6 @@ public:
                 n--;
                 }
             }
-
         }
         return ans;
     }
