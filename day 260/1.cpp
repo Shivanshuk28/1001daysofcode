@@ -22,7 +22,7 @@ public:
          ListNode* temp2=new ListNode(0);
          ListNode* head2=temp2;
          for(auto x:mpp){
-             pif(x.second==1){
+             if(x.second==1){
                  temp2->next=new ListNode(x.first);
                  temp2=temp2->next;
              }
