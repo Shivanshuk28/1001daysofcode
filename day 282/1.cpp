@@ -14,7 +14,7 @@
  */
 class Solution {
 public:
-    vector<double> averageOfLevels(TreeNode* root) {
+    vector<double> averageOfLevels(TreeNode* root){
         vector<double>ans;
         queue<TreeNode*>q;
         q.push(root);
