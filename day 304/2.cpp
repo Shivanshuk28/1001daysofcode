@@ -5,7 +5,6 @@
 class Solution {
 public:
     int minimumBoxes(vector<int>& apple, vector<int>& capacity) {
-               
         int total=0;
         for(auto x:apple){
             total+=x;
